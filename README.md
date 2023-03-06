@@ -7,12 +7,6 @@
 - Instale as dependências (requirements.txt)
 - Rode as migrações
 
-Opcional:
-Instale o **git-cola**, uma interface gráfica para usar o Git (você só precisa fazer o git-push via terminal)
-```sh
-sudo apt install git-cola
-```
-
 Exemplo:
 ```sh
 git clone git@github.com:Siluryan/Django-Estoque.git
