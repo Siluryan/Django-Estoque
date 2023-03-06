@@ -16,6 +16,3 @@ pip install -r requirements.txt
 python contrib/env_gen.py
 python manage.py migrate
 ```
-
-Observação:
-Caso o seu ambiente virtual não encontre os módulos (ex.:django.core.management) instale o django na sua estação de trabalho.
