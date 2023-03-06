@@ -3,7 +3,7 @@
 ### Como iniciar o projeto:
 
 - Clone esse repositório
-- Crie um virtual env com Python 3
+- Crie um ambiente virtual com Python 3 [instruções](https://cloud.google.com/python/docs/setup?hl=pt-br#linux)
 - Instale as dependências (requirements.txt)
 - Rode as migrações
 
@@ -16,3 +16,6 @@ pip install -r requirements.txt
 python contrib/env_gen.py
 python manage.py migrate
 ```
+
+Observação:
+Caso o seu ambiente virtual não encontre os módulos (ex.:django.core.management) instale o django na sua estação de trabalho.
