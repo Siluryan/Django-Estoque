@@ -13,6 +13,6 @@ git clone git@github.com:Siluryan/Django-Estoque.git
 python3 -m venv .env
 source .env/bin/activate
 pip install -r requirements.txt
-python contrib/env_gen.py
-python manage.py migrate
+python3 contrib/env_gen.py
+python3 manage.py migrate
 ```
