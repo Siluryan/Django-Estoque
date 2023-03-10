@@ -9,8 +9,7 @@
 
 Exemplo:
 ```sh
-git clone https://github.com/Siluryan/Django-Estoque.git
-cd RepoProjetoIntegrador/CodigoFonte
+git clone https://github.com/Siluryan/WebApp-Django.git
 python3 -m venv env
 source env/bin/activate
 pip install -r requirements.txt
