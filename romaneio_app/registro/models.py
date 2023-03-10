@@ -18,4 +18,5 @@ class Nota(models.Model):
         ordering=('fornecedor',)
 
     def __str__(self) :
-        return self.fornecedor
+        return self.fornecedor  
+

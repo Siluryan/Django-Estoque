@@ -1,4 +1,4 @@
-## Controle de estoque
+## WebApp de Romaneio
 
 ### Como iniciar o projeto:
 
@@ -9,10 +9,14 @@
 
 Exemplo:
 ```sh
-git clone git@github.com:Siluryan/Django-Estoque.git
+git clone https://github.com/projetointegrador2023/RepoProjetoIntegrador.git
+cd RepoProjetoIntegrador/CodigoFonte
 python3 -m venv env
 source env/bin/activate
 pip install -r requirements.txt
+cd romaneio_app
 python3 contrib/env_gen.py
 python3 manage.py migrate
+python3 manage.py createsuperuser
+python3 manage.py runserver
 ```
